@@ -1,0 +1,104 @@
+/* base.css */
+
+h1,
+.h1 {
+  font-size: calc(var(--font-heading-scale) * 2.7rem); /* 3em */
+}
+
+@media only screen and (min-width: 750px) {
+  h1,
+  .h1 {
+    font-size: calc(var(--font-heading-scale) * 3.3rem); /* 4rem */
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  h2,
+  .h2 {
+    font-size: calc(var(--font-heading-scale) * 2.2rem); /* 2.4 rem */
+  }
+}
+
+h4,
+.h4 {
+  margin-bottom: 1rem;
+}
+
+/* component-title */
+.title,
+.title-wrapper-with-link {
+  margin: 3rem 0 1.5rem;
+}
+
+@media screen and (min-width: 990px) {
+  .title,
+  .title-wrapper-with-link {
+    margin: 5rem 0 1.5rem;
+  }
+}
+
+.media > *:not(.zoom):not(.deferred-media__poster-button),
+.media model-viewer {
+  object-position: center 10%;
+}
+
+.header__menu-item {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .soundest-form-simple-outer {
+    width: 87% !important;
+  }
+}
+
+.soundest-form-simple-branding img {
+  display: none !important;
+}
+
+#instagram-page .page-title + .rte {
+  margin-top: 1.5em;
+}
+
+h2.title,
+h2.blog__title,
+h2.product-recommendations__heading,
+h2.image-with-text__heading {
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+/* component-price.css */
+
+.price {
+  font-size: 1.4rem;
+}
+
+/* section-main-page.css */
+
+.page-title {
+  /* margin-top: 0; */ /* TODO: figure out what previous setting is to match that */
+}
+
+.main-page-title {
+  margin-bottom: 0rem;
+}
+
+@media screen and (min-width: 750px) {
+  .main-page-title {
+    /* margin-bottom: 4rem; */ /* TODO: figure out what previous setting is to match that */
+  }
+}
+
+/* section-main-product.css */
+
+.product-media-modal__toggle {
+  border: 0.1rem solid rgba(var(--color-foreground), 0.8);
+  color: rgba(var(--color-foreground));
+}
+
+.product-media-modal__toggle:hover {
+  color: rgba(var(--color-foreground));
+}
+
