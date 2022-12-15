@@ -1,3 +1,3 @@
 # kristinit-dawn
 
-New Dawn based kristinit d
+Kristinit theme based on Dawn v7.0.1
