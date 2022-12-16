@@ -78,8 +78,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/DSC02168-662px.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -87,8 +88,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "KRISTINA LENSS, founder & designer",
+            "text": "<p>Every woman has a right to feel powerful and beautiful regardless of how society tells her to be.  My mother called me \"Kristinit\" as a young girl. Being a tall, awkward girl who was different wasn’t easy, but through my relentless passion for clothing and design, I discovered my secret to self-empowerment. My lifetime dedication to bringing out one’s inner beauty is what led me to create the Kristinit brand.<\/p><p><strong>My garments radiate confidence, sexuality and timelessness, going beyond trends and manufactured to be loved for years to come<\/strong>.  I employ women owned factories and artisans around the globe, utilizing my extensive collection of antique prints coupled with timeless vintage inspired silhouettes.<\/p><p>The time to enjoy life is NOW.  Let's celebrate ourselves as women and wear what reflects our uniqueness, our values and our light.<\/p>",
             "link_label": "",
             "link": ""
           }
