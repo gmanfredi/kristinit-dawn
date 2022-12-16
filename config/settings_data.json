@@ -106,9 +106,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "https://www.facebook.com/shopkristinit/",
-    "social_pinterest_link": "https://www.pinterest.com/kristinit/",
-    "social_instagram_link": "https://www.instagram.com/shopkristinit",
+    "social_facebook_link": "https:\/\/www.facebook.com\/shopkristinit\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/kristinit\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/shopkristinit",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -138,7 +138,8 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -167,24 +168,16 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
           "footer-2": {
             "type": "text",
             "settings": {
               "heading": "Kristinit Mission",
-              "subtext": "<p>We create clothing for woman to look beautiful, feel beautiful and be empowered.  We donate a percentage of every sale to environment and animal welfare charities.  We employ only women-owned artisans and co-ops worldwide for our manufacturing.  We care about how we run our business and the impact it has in the world.</p>"
+              "subtext": "<p>We create clothing for woman to look beautiful, feel beautiful and be empowered.  We donate a percentage of every sale to environment and animal welfare charities.  We employ only women-owned artisans and co-ops worldwide for our manufacturing.  We care about how we run our business and the impact it has in the world.<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
           "footer-2"
         ],
         "settings": {
@@ -214,7 +207,10 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
@@ -356,7 +352,8 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
